@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GabeCarbaugh</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="header">
+	<h1>GABE CARBAUGH</h1>
+</div>
+
+<div class="nav">
+  <ul>
+	<li><a href='/home'>Home</a></li>
+	<li><a href='/media'>Media</a></li>
+  </ul>
+</div>
+
+<div class="content">
+<%= yield %>
+</div>
+
+<div class="footer">
+Copyright © <a target="_blank" href="http://www.slickrails.com">SlickRails.com</a>
+
+
+</div>
+
+<script>(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src="//x.instagramfollowbutton.com/follow.js";s.parentNode.insertBefore(g,s);}(document,"script"));</script>
+</body>
+</html>

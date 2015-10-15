@@ -1,0 +1,107 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body, h1, h2, h3, h4, ul, ol, ul, li, p, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+h1 {
+	margin: 0 0 15px 0;
+}
+
+h2 {
+	margin: 15px 0 15px;
+}
+
+h3 {
+	margin: 20px 0 5px 0;
+}
+
+h4 {
+	margin: 10px 0 10px 0;
+}
+
+p {
+	margin: 0 0 10px 0;
+}
+
+a {
+	color: #CC3300;
+}
+
+ul {
+	padding: 0 0 0 30px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+body {
+	padding: 0;
+	background-image: url(/assets/cities.jpg);
+	background-repeat: no-repeat;
+	background-size: 190%;
+	background-position: auto;
+	background-attachment: fixed;
+}
+
+ol {
+	padding: 0 0 0 20px;
+}
+
+.nav {
+	padding: 0;
+	text-align: center;
+}
+
+.nav li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.header {
+	padding: 15px;
+}
+
+.content {
+	padding: 15px;
+	width: 600px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+}
+
+.footer, .content:after {
+	height: 20px;
+	width: 100%;
+	background: #ffffff;
+}
+
+.footer {
+	bottom: 0;
+	position: fixed;
+	font-size: 10px;
+}
+
+.header h1 {
+	text-align: center;
+	color: #CC3300;
+}
+
+.content h3 {
+	color: #CC3300;
+}
+
+.home {
+
+	background: #ffffff;
+	background-position: center;
+
+}
+
+
+
+

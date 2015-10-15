@@ -1,0 +1,10 @@
+<h3>HOME</h3>
+
+<div class="home">
+<%= image_tag('main.jpg', style: "height: 198px; width: 600px", display: "block") %>
+<br>
+
+<span class="ig-follow" data-id="313b2ea514" data-handle="gabe_216" data-count="true" data-size="large" data-username="true"></span>
+
+</div>
+
